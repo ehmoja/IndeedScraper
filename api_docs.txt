@@ -1,0 +1,22 @@
+Address: POST '/tech'
+Description: Post to this API to get the jobs filtered by tech stack
+Parameters:
+    [Mandatory] 'techName': The name of the tech that must be included in the job description.
+        valid values: ['Python', 'Java', 'Javascript', 'Node', 'C', 'C++', 'AWS', 'SQL', 'Ruby',
+                     'HTML', 'Android', 'Spark', 'React', 'Apache', '.NET', 'Perl'
+                     'Kafka', 'Kubernetes', 'Azure', 'Kotlin', 'CSS', 'PHP']
+
+    [Optional, default=0] 'page': The page number of the results. Each page will contain 10 results.
+    [Optional, default=False] 'sorting': Enter the name of a column to sort results lexicographically, pre-pagination, by that column's values
+        valid values: ['Title','Employer','Location','Salary','Data' 'Posted','Tech' 'Stack','Description','Responsibilities','Experience','Learn' 'More']
+
+Address: POST '/location'
+Description: Post to this API to get the jobs filtered by location
+Parameters:
+    [Mandatory] 'location': The location which the job must be in.
+    [Optional, default=0] 'page': The page number of the results. Each page will contain 10 results.
+    [Optional, default=False] 'sorting': Enter the name of a column to sort results lexicographically, pre-pagination, by that column's values
+        valid values: ['Title','Employer','Location','Salary','Data' 'Posted','Tech' 'Stack','Description','Responsibilities','Experience','Learn' 'More']
+    
+
+
