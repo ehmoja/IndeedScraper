@@ -10,6 +10,7 @@ Parameters:
     [Optional, default=False] 'sorting': Enter the name of a column to sort results lexicographically, pre-pagination, by that column's values
         valid values: ['Title','Employer','Location','Salary','Data' 'Posted','Tech' 'Stack','Description','Responsibilities','Experience','Learn' 'More']
 
+
 Address: POST '/location'
 Description: Post to this API to get the jobs filtered by location
 Parameters:
@@ -17,6 +18,6 @@ Parameters:
     [Optional, default=0] 'page': The page number of the results. Each page will contain 10 results.
     [Optional, default=False] 'sorting': Enter the name of a column to sort results lexicographically, pre-pagination, by that column's values
         valid values: ['Title','Employer','Location','Salary','Data' 'Posted','Tech' 'Stack','Description','Responsibilities','Experience','Learn' 'More']
-    
+
 
 
